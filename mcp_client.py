@@ -65,7 +65,7 @@ class Mcp:
             "jsonrpc": "2.0", "id": 0, "method": "initialize",
             "params": {
                 "protocolVersion": "2025-06-18", "capabilities": {},
-                "clientInfo": {"name": "sian-article-demo", "version": "0.1.0"},
+                "clientInfo": {"name": "apify-agent-call-probe", "version": "0.1.0"},
             },
         })
         self._post({"jsonrpc": "2.0", "method": "notifications/initialized"}, notify=True)
