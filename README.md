@@ -34,6 +34,10 @@ Actor knew what was wrong but never surfaced it:
    failures[0].error: location must be a non-empty string.
 ```
 
+Output captured in July 2026. That Actor has since been fixed, so the same call returns `OK`
+today: `location` now carries a `default` rather than only a `prefill`. That is the change this
+probe exists to prompt.
+
 Run the built-in checks with `python3 agent_call_probe.py --self-check`.
 
 ## Verdicts
